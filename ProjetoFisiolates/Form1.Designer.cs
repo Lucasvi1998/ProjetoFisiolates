@@ -32,10 +32,10 @@ namespace ProjetoFisiolates
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBoxUsuario = new System.Windows.Forms.TextBox();
+            this.textBoxUsuario1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBoxSenha = new System.Windows.Forms.TextBox();
+            this.textBoxSenha1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -47,10 +47,10 @@ namespace ProjetoFisiolates
             this.panel1.BackColor = System.Drawing.Color.Thistle;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.textBoxUsuario);
+            this.panel1.Controls.Add(this.textBoxUsuario1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.textBoxSenha);
+            this.panel1.Controls.Add(this.textBoxSenha1);
             this.panel1.Location = new System.Drawing.Point(149, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(344, 550);
@@ -66,16 +66,16 @@ namespace ProjetoFisiolates
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // textBoxUsuario
+            // textBoxUsuario1
             // 
-            this.textBoxUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsuario.Location = new System.Drawing.Point(55, 274);
-            this.textBoxUsuario.Multiline = true;
-            this.textBoxUsuario.Name = "textBoxUsuario";
-            this.textBoxUsuario.Size = new System.Drawing.Size(235, 63);
-            this.textBoxUsuario.TabIndex = 0;
-            this.textBoxUsuario.Text = "\r\nUsuário";
+            this.textBoxUsuario1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxUsuario1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUsuario1.Location = new System.Drawing.Point(55, 274);
+            this.textBoxUsuario1.Multiline = true;
+            this.textBoxUsuario1.Name = "textBoxUsuario1";
+            this.textBoxUsuario1.Size = new System.Drawing.Size(235, 63);
+            this.textBoxUsuario1.TabIndex = 0;
+            this.textBoxUsuario1.Text = "\r\nUsuário";
             // 
             // button2
             // 
@@ -102,16 +102,16 @@ namespace ProjetoFisiolates
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBoxSenha
+            // textBoxSenha1
             // 
-            this.textBoxSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSenha.Location = new System.Drawing.Point(55, 369);
-            this.textBoxSenha.Multiline = true;
-            this.textBoxSenha.Name = "textBoxSenha";
-            this.textBoxSenha.Size = new System.Drawing.Size(235, 62);
-            this.textBoxSenha.TabIndex = 1;
-            this.textBoxSenha.Text = "\r\nSenha";
+            this.textBoxSenha1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxSenha1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSenha1.Location = new System.Drawing.Point(55, 369);
+            this.textBoxSenha1.Multiline = true;
+            this.textBoxSenha1.Name = "textBoxSenha1";
+            this.textBoxSenha1.Size = new System.Drawing.Size(235, 62);
+            this.textBoxSenha1.TabIndex = 1;
+            this.textBoxSenha1.Text = "\r\nSenha";
             // 
             // label1
             // 
@@ -139,7 +139,7 @@ namespace ProjetoFisiolates
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 664);
+            this.ClientSize = new System.Drawing.Size(610, 622);
             this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -159,10 +159,10 @@ namespace ProjetoFisiolates
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBoxUsuario;
+        private System.Windows.Forms.TextBox textBoxUsuario1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBoxSenha;
+        private System.Windows.Forms.TextBox textBoxSenha1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

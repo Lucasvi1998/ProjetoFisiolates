@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading; //para chamar uma nova tela
 
 namespace ProjetoFisiolates
 {
     public partial class Form1 : Form
     {
+        Thread nt; //como se tivesse criado uma variavel do tipo thread
         public Form1()
         {
             InitializeComponent();
@@ -19,8 +21,15 @@ namespace ProjetoFisiolates
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Form2 cad = new Form2();
-            cad.Show();
+            this.Close();
+            nt = new Thread(novoForm); //novoForm é um método
+            nt.SetApartmentState(ApartmentState.STA);
+            nt.Start();
+        }
+
+        private void novoForm()
+        {
+            Application.Run(new Form2());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,8 +39,8 @@ namespace ProjetoFisiolates
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBoxUsuario.Text == "" && textBoxSenha.Text == "")
-            MessageBox.Show("Logado com sucesso");
+            if(textBoxUsuario1.Text == "" && textBoxSenha1.Text == "")
+                MessageBox.Show("Logado com sucesso");
             else
                 MessageBox.Show("precisa preencher os campos Usuário e senha");
         }
