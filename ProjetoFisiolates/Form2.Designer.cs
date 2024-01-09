@@ -61,7 +61,7 @@ namespace ProjetoFisiolates
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBoxUsuario);
-            this.panel1.Location = new System.Drawing.Point(69, 20);
+            this.panel1.Location = new System.Drawing.Point(2, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(669, 593);
             this.panel1.TabIndex = 1;
@@ -199,7 +199,7 @@ namespace ProjetoFisiolates
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 636);
+            this.ClientSize = new System.Drawing.Size(673, 590);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Name = "Form2";
